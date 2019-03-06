@@ -3,7 +3,7 @@ OSGeo Live GIS Disc
 
 Version 12.1
 ====================
-
+* pgAdmin4
 * QGIS 3.4 LTS
 
 Version 12.0

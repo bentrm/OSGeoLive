@@ -74,6 +74,8 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FADA29F7
 # UbuntuGIS
 #apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 314DF160
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key CAEB3DC3BDF7FB45
+# PostgreSQL
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key ACCC4CF8
 
 apt-get -q update
 

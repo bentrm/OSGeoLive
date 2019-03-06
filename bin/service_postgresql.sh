@@ -52,7 +52,9 @@ echo "#DEBUG The locale settings updated:"
 locale
 echo "------------------------------------"
 
-apt-get install --yes postgresql-"$PG_VERSION" pgadmin3
+cp ../sources.list.d/pgdg.list /etc/apt/sources.list.d/
+
+apt-get install --yes postgresql-"$PG_VERSION" pgadmin4
 
 if [ $? -ne 0 ] ; then
    echo 'ERROR: Package install failed! Aborting.'
