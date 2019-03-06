@@ -1,4 +1,5 @@
-deb http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu bionic main
+deb https://qgis.org/ubuntu-ltr bionic main
+#deb http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu bionic main
 #deb-src http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu bionic main
 #deb http://ppa.launchpad.net/ubuntugis/ppa/ubuntu bionic main
 #deb-src http://ppa.launchpad.net/ubuntugis/ppa/ubuntu bionic main
