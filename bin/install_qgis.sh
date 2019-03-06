@@ -35,6 +35,8 @@ if [ ! -d "$TMP_DIR" ] ; then
 fi
 cd "$TMP_DIR"
 
+cp ../sources.list.d/qgis-ltr.list /etc/apt/sources.list.d/
+
 apt-get -q update
 
 #Install packages
