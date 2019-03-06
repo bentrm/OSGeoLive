@@ -67,6 +67,10 @@ else
    cp ../sources.list.d/osgeolive-nightly.list /etc/apt/sources.list.d/
 fi
 
+# Add official repositories
+cp ../sources.list.d/qgis-ltr.list /etc/apt/sources.list.d/
+cp ../sources.list.d/pgdg.list /etc/apt/sources.list.d/
+
 #Add keys for repositories
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FADA29F7
 # Staging repo
